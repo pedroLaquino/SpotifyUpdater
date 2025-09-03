@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Configurações
-CLIENT_ID = "30bbe4b3db114195b431c32ad2a330ef"
-CLIENT_SECRET = "a1884591e9824ce8ba442e09ce5b2ccf"
-REDIRECT_URI = "https://99b32b619269.ngrok-free.app/callback"
+CLIENT_ID = "SECRET"
+CLIENT_SECRET = "SECRET"
+REDIRECT_URI = "https://SECRET.ngrok-free.app/callback"
 
 SCOPE = "playlist-modify-public playlist-modify-private user-library-read"
 ARTIST_ID = "4W4NkfM4A1sX2S2bfYlV07"
@@ -52,3 +52,4 @@ if results['items']:
                 playlist_track_names.add(track_name_lower)
             else:
                 print(f"{track['name']} já está na playlist, pulando...")
+
